@@ -17,6 +17,8 @@ Scripts Explanation
 27 - Matches users using features from `26`  
 30 - Plots a hate speech timeseries for various slicings of the data  
 31 - Calculates the instataneous hate speech increase upon becoming active in the hateful subreddit, using output from `49`  
+36 - Generates two timeries, with the hate speech of users who leave the platform <= or > 365 days after becoming active in the hateful subreddit
+37 - Uses the timeseries from `36` to generate average hate speech for both groups
 48 - Generate a timeseries of hate-speech per day per user for all users from `27`, considering only users on their first hateful subreddit  
 49 - Generates plots using data from `28`, filtering to keep only  
 51 - Calculates the instataneous hate speech increase upon becoming active in the hateful subreddit, using output from `52`  
